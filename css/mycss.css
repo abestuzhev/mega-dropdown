@@ -1,0 +1,156 @@
+
+@media only screen and (min-width: 928px) {
+  .cd-dropdown-content li:hover{
+    cursor: pointer;
+    background-color: #FFCD00;
+  }
+  .cd-dropdown a:hover{
+    /*color: #FFCD00;*/
+  }
+  .logo-title{
+    display: none;
+  }
+  .cd-dropdown-content .menu-title{
+    display:none;
+  }
+  .cd-dropdown-content li {
+    font-size: 1.4em;
+    display: inline-block;
+  }
+  .cd-dropdown-content {
+
+  }
+  .children-2,  .children-3{
+    position: relative;
+    display: none;
+    background-color: #fff;
+  }
+  .has-children > .children-2{
+    /*line-height: 50px;*/
+    top:34px;
+    left:0;
+    /*bottom: 0;*/
+  }
+  .has-children > a.del-pointer::before,
+  .has-children > a.del-pointer::after {
+    display:none;
+  }
+
+  .go-back{
+    display: none;
+  }
+  .has-children:hover > ul  {
+    /*visibility: visible;*/
+    display: block;
+  }
+  .has-children{
+    position: relative;
+  }
+  .cd-dropdown-content li{
+    padding:10px;
+  }
+  .cd-dropdown-trigger{
+    display: none;
+  }
+  header .cd-dropdown {
+    opacity: 1;
+    visibility: visible;
+  }
+
+}
+/*end media querise*/
+
+
+.cd-secondary-dropdown a.car{
+  position: relative;
+  padding-left: 88px;
+}
+
+.car span {
+  display: block;
+  line-height: 1.2em;
+
+}
+.car span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:78px;
+  height:33px;
+  background-size: cover;
+}
+.logan-new span::before {
+  background: url("../img/logan-new.png") no-repeat 0 0;
+}
+.logan span::before {
+  background: url("../img/logan.png") no-repeat 50% 50%;
+}
+.duster span::before {
+  background: url("../img/duster.png") no-repeat 50% 50%;
+}
+.san-stepway span::before {
+  background: url("../img/san-stepway.png") no-repeat 50% 50%;
+}
+.san span::before {
+  background: url("../img/san.png") no-repeat 50% 50%;
+}
+.fluence span::before {
+  background: url("../img/fluence.png") no-repeat 50% 50%;
+}
+.megane-h span::before {
+  background: url("../img/megane-h.png") no-repeat 50% 50%;
+}
+.megane-rs span::before {
+  background: url("../img/megane-rs.png") no-repeat 50% 50%;
+}
+.koleos span::before {
+  background: url("../img/koleos.png") no-repeat 50% 50%;
+}
+.kangoo span::before {
+  background: url("../img/kangoo.png") no-repeat 50% 50%;
+}
+.master span::before {
+  background: url("../img/master.png") no-repeat 50% 50%;
+}
+.kangoo-f span::before {
+  background: url("../img/kangoo-f.png") no-repeat 50% 50%;
+}
+
+@media only screen and (max-width: 927px) {
+  .cd-dropdown-content li {
+    padding:14px 20px;
+    border-top:1px solid #fff;
+    border-bottom:1px solid #dbdbdb;
+  }
+  .cd-secondary-dropdown li {
+    /*border-top:1px solid #fff;*/
+    /*border-bottom:1px solid #fff;*/
+  }
+  .cd-dropdown-content, .cd-dropdown-content ul {
+    background-color: #e6e6e6;
+  }
+  .cd-dropdown-content a, .cd-dropdown-content ul a{
+  color:#000;
+  }
+  .cd-dropdown-content .go-back,
+  .cd-dropdown-content .menu-title {
+    border-top:none;
+    background-color: #ffcc33;
+  }
+  .cd-dropdown-content .go-back{
+    padding-left:0;
+  }
+  /*.logo-title {
+    position: absolute;
+    width:96px;
+    z-index: 100;
+    right:0;
+    height:28px;
+    background-color: red;
+    background: url("../img/logo-mobile.png");
+  }*/
+  .logo-title img {
+    text-align: right;
+  }
+}
